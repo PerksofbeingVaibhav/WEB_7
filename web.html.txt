@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,98,90,1) 65%, rgba(20,86,88,0.9712389380530974) 93%);
+}.navbar{
+    padding: 25px 20px;
+    width: 100%;
+    height: 30px;
+    background: #000;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+li{
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    margin-right: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.brand{
+    margin-right: 380px;
+    margin-left: 25px;
+    font-size: 25px;
+    color: #00d4ff;
+}
+li:hover{
+    color: #00d4ff;
+}
+.imge{
+    position: absolute;
+    top: 150px;
+    left:35%;
+}
+img{
+    height: 550px;
+}
+.hd{
+    position: absolute;
+    color: #fff;
+    top: 240px;
+    left: 40px;
+    font-size: 45px;
+    color: #00d4ff;
+    letter-spacing: 0.06em;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+.content{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: #ececec;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+}
+a{
+    position: absolute;
+    top: 455px;
+    left: 40px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00d4ff;
+    border: 1px solid #00d4ff;
+    border-radius: 25px;
+    transition: 0.5s;
+    transition-property: background;
+}
+a:hover{
+    background: #00d4ff;
+    color: #fff;
+}
+
+</style>
+<html lang="en" dir="ltr">
+        <head>
+                <meta charset="utf-8">
+        <title>DSC-MUSIC</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+                <nav class="navbar">
+                        <ul>
+                            <li class="brand"><i class="fab fa-spotify"></i>DSC-MUSIC</li>
+                            <li>PREMIUM</li>
+                            <li>DOWNLOAD</li>
+                            <li>LISTEN</li>
+                        </ul>
+                    </nav>
+
+                    <div class="imge">
+                        <img src="garrix.jpg" alt="">
+                    </div>
+
+                    <div class="hd">
+                        FEEL THE MUSIC <i class="fas fa-music"></i>
+                    </div>
+                    <div class="content">
+                        <em>MUSIC IS THE UNIVERSAL LANGUAGE <br>FEEL THE RHYTHM<br>OF EVERY BEAT</em>
+                    </div>
+
+                    <a href="#">JOIN NOW</a>
+        </body>
+</html>
